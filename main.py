@@ -54,7 +54,7 @@ class CrisisWatchSpider(scrapy.Spider):
                         PageMethod("wait_for_selector", "//h1[contains(@class, 'c-page-hero__title')]")
                     ],
                     "playwright_page_goto_kwargs": {
-                        "timeout": 60000,  # Timeout set to 60 seconds
+                        "timeout": 60000,
                     },
                 },
             )
