@@ -8,7 +8,7 @@ This project contains a Scrapy spider that scrapes crisis data from [CrisisWatch
 
 ### Project Structure (important files)
 
-- `unicef/spiders/crisisgroup.py`: Contains the `CrisisWatchSpider` class which is responsible for scraping data from the Crisis Group website.
+- `main.py`: Contains the `CrisisWatchSpider` class which is responsible for scraping data from the Crisis Group website.
 - `output.csv`: Contains the scraped data in CSV format.
 - `output.json`: Contains the scraped data in JSON format.
 
@@ -33,5 +33,13 @@ playwright
 To run the spider, use the following command:
 
 ```bash
-scrapy crawl crisisgroup -o new_output.csv
+python main.py
 ```
+OR
+```bash
+python3 main.py
+```
+
+### Output
+
+This will start the spider, scrape the data, and save it to `output.csv` and `output2.json` in the same directory as the script.
