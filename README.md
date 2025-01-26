@@ -42,4 +42,4 @@ python3 main.py
 
 ### Output
 
-This will start the spider, scrape the data, and save it to `output.csv` and `output2.json` in the same directory as the script.
+This will start the spider, scrape the data, and save it to `output.csv` and `output.json` in the same directory as the script.
